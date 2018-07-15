@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/Makefile
+/libdhysk-core.so.1
+/libdhysk-core.so.1.0
+/libdhysk-core.so.1.0.0

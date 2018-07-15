@@ -1,0 +1,12 @@
+#ifndef DHYSKCORE_GLOBAL_H
+#define DHYSKCORE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(DHYSKCORE_LIBRARY)
+#  define DHYSKCORESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DHYSKCORESHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DHYSKCORE_GLOBAL_H
